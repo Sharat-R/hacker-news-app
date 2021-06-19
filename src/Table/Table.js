@@ -15,6 +15,9 @@ function Table(){
         },
         {
             "Comments": 'Jello', "VoteCount": 60, "UpVote": '^', "NewsDetails": 'Blah  Blah' 
+        },
+        {
+            "Comments": 'Sello', "VoteCount": 20, "UpVote": '^', "NewsDetails": 'Blah  Blah' 
         }
     ]
     return (
