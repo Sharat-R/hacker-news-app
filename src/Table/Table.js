@@ -9,6 +9,12 @@ function Table(){
         },
         {
             "Comments": 'Shello', "VoteCount": 30, "UpVote": '^', "NewsDetails": 'Blah  Blah' 
+        },
+        {
+            "Comments": 'Mellow', "VoteCount": 90, "UpVote": '^', "NewsDetails": 'Blah  Blah' 
+        },
+        {
+            "Comments": 'Jello', "VoteCount": 60, "UpVote": '^', "NewsDetails": 'Blah  Blah' 
         }
     ]
     return (
