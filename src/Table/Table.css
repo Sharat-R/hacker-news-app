@@ -1,0 +1,10 @@
+.Table1{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: blueviolet;
+}
+th{
+    padding: 5px 5px 5px 5px;
+}
