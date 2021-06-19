@@ -2,13 +2,13 @@ import './Table.css';
 function Table(){
     var response=[
         {
-            "Comments": 'Hello', "VoteCount": 2000, "UpVote": '^', "NewsDetails": 'Blah  Blah' 
+            "Comments": 'Hello', "VoteCount": 20, "UpVote": '^', "NewsDetails": 'Blah  Blah' 
         },
         {
-            "Comments": 'Yellow', "VoteCount": 1000, "UpVote": '^', "NewsDetails": 'Blah  Blah' 
+            "Comments": 'Yellow', "VoteCount": 10, "UpVote": '^', "NewsDetails": 'Blah  Blah' 
         },
         {
-            "Comments": 'Shello', "VoteCount": 3000, "UpVote": '^', "NewsDetails": 'Blah  Blah' 
+            "Comments": 'Shello', "VoteCount": 30, "UpVote": '^', "NewsDetails": 'Blah  Blah' 
         }
     ]
     return (
