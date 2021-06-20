@@ -3,8 +3,17 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background-color: blueviolet;
 }
 th{
     padding: 5px 5px 5px 5px;
+}
+.HeadRow{
+    background-color: slategrey;
+;
+}
+.AltRow1{
+    background-color: gainsboro;
+}
+.AltRow2{
+    background-color: grey;
 }
