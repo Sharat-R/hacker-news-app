@@ -1,5 +1,5 @@
 .Table1{
-
+    border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -7,4 +7,17 @@
 }
 th{
     padding: 5px 5px 5px 5px;
+}
+.HeadRow{
+    background-color: darkorange;
+    color: white;
+;
+}
+.AltRow1{
+    background-color: transparent;
+    color: #828282;
+}
+.AltRow2{
+    background-color: #f2f2f2;
+    color: #828282;
 }
