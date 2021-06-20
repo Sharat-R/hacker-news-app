@@ -1,4 +1,5 @@
 import './Table.css';
+
 function Table(){
     var response=[
         {
@@ -23,7 +24,7 @@ function Table(){
     return (
     <table className='Table1'>
         <thead>
-        <tr >
+        <tr className='HeadRow'>
             <th>Comments</th>
             <th>VoteCount</th>
             <th>UpVote</th>
@@ -33,12 +34,21 @@ function Table(){
         <tbody>
             {
                 response.map((item,i)=>{
-                    return (<tr>
+                    if (i%2==0){
+                    return (<tr className='AltRow1'>
+                        <td>{item.Comments}</td>
+                        <td>{item["VoteCount"]}</td>
+                        <td>{item["UpVote"]}</td>
+                        <td>{item["NewsDetails"]}</td>
+                    </tr>)}
+                    else{
+                    return (<tr className='AltRow2'>
                         <td>{item.Comments}</td>
                         <td>{item["VoteCount"]}</td>
                         <td>{item["UpVote"]}</td>
                         <td>{item["NewsDetails"]}</td>
                     </tr>)
+                    }
                 })
             }
 
